@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style/nav.css">
+    <style>
+        .select {
+            background-color: rgb(207, 249, 221);
+        }
+
+        legend {
+            color: rgb(249, 71, 6);
+        }
+
+        button {
+            background-color: rgba(255, 7, 7, 0.894);
+            padding: 4px 20px;
+            margin-right: 8px;
+            font-size: 15px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="audio-video.html">Sen</a></li>
+                <li><a href="index.html">Table</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="text.html">Text
+                        <ul class="sem">
+                            <li><a href="">link 1</a></li>
+                            <li><a href="">link 2</a></li>
+                            <li><a href="">link 3</a></li>
+                            <li><a href="">link 4</a></li>
+                        </ul>
+                    </a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to my home</h1>
+    </header>
+    <section>
+        <h1>Mojadar Pitha </h1>
+        <form action="">
+            <p>Name : <input type="text" placeholder="Enter your name" name="name" id="">
+            </p>
+            <p>Email: <input type="text" placeholder="Enter your Email" name="Email" id=""></p>
+            <fieldset class="select">
+                <legend>Select your pitha</legend>
+                <p>
+                    <label for="cihtoy">
+                        <input type="radio" name="pitha" id="cihtoy">Cihtoy
+                    </label>
+                </p>
+                <p>
+                    <label for="vapah">
+                        <input type="radio" name="pitha" id="vapah">Vapah
+                    </label>
+                </p>
+                <p>
+                    <label for="chota">
+                        <input type="radio" name="pitha" id="chota">Chota
+                    </label>
+                </p>
+            </fieldset>
+            <fieldset class="select">
+                <legend>select your vorta</legend>
+                <p>
+                    <label for="sorisa"><input type="checkbox" name="vorta" id="sorisa">sorisa</label>
+                </p>
+                <p>
+                    <label for="shutki"><input type="checkbox" name="vorta" id="shutki">shutki</label>
+                </p>
+                <p>
+                    <label for="kacha jal"><input type="checkbox" name="vorta" id="kacha jal">kacha jal</label>
+                </p>
+            </fieldset>
+            <p>Special Instruction
+                <br>
+                <textarea name="instruction" id="" cols="30" rows="10"></textarea>
+            </p>
+            <button type="submit">submit</button>
+            <button type="reset">reset</button>
+        </form>
+    </section>
+
+</body>
+
+</html>

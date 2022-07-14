@@ -1,0 +1,38 @@
+body {
+    background-image: url(jpg/css.jpg);
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 25px;
+    padding: 0 15px;
+}
+
+nav li:hover {
+    background-color: rgb(187, 228, 228);
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(15, 119, 1);
+}
+
+nav>ul>li:hover>ul {
+    display: block;
+}
+
+.sem {
+    display: none;
+    position: absolute;
+    background-color: lightseagreen;
+    padding: 0 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
